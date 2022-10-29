@@ -23,6 +23,25 @@ Execute PL/SQL scripts from\
 
 ## Example
 
+```
+DECLARE 
+	cMAIL_TEXT CLOB;
+BEGIN
+  	PKG$EMAIL_TABLE.pINIT_TABLE;	
+	PKG$EMAIL_TABLE.pADD_VALUE('Test First column 1');
+	PKG$EMAIL_TABLE.pADD_VALUE('Test value 1');
+	
+	PKG$EMAIL_TABLE.pNEXT_ROW;
+	PKG$EMAIL_TABLE.pADD_VALUE('Test First column 2');
+	PKG$EMAIL_TABLE.pADD_VALUE('Test value 2');
+								
+	cMAIL_TEXT:=PKG$EMAIL_UTIL.f$GET_TABLE;
+
+	-- Add your send to email here
+	
+END;
+```
+
 <table>
   <tr>
     <td valign="center" width="49%"><img src="https://github.com/Ruslan-Shevyrev/Ruslan-Shevyrev/blob/main/logoRS/logo_mini.gif" title="logo"></td>
