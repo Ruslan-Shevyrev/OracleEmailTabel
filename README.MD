@@ -35,12 +35,34 @@ BEGIN
 	PKG$EMAIL_TABLE.pADD_VALUE('Test First column 2');
 	PKG$EMAIL_TABLE.pADD_VALUE('Test value 2');
 								
-	cMAIL_TEXT:=PKG$EMAIL_UTIL.f$GET_TABLE;
+	cMAIL_TEXT:=PKG$EMAIL_TABLE.fGET_TABLE;
 
+	-- DBMS_OUTPUT.PUT_LINE(cMAIL_TEXT); -- for test only
 	-- Add your send to email here
 	
 END;
 ```
+
+HTML Table looks like:
+
+```
+<table style="width: 100%;margin: 0 auto 0 auto;"><tbody><tr><td><table style="width: 100%;"><tbody><tr><td style="background: #ebebeb;height: 40px;padding-left: 10px;padding-right: 10px;width: auto;white-space: nowrap;font-weight: bold;min-width: 160px;">Test First column 1</td><td style="background: #ebebeb;
+                        			height: 40px;
+                        			padding-left: 10px;
+                        			padding-right: 10px;
+                        			width: 100%;">Test value 1</td></tr><tr><td style="background: #ebebeb;height: 40px;padding-left: 10px;padding-right: 10px;width: auto;white-space: nowrap;font-weight: bold;min-width: 160px;">Test First column 2</td><td style="background: #ebebeb;
+                        			height: 40px;
+                        			padding-left: 10px;
+                        			padding-right: 10px;
+                        			width: 100%;">Test value 2</td></tr></tbody></table></td></tr></tbody></table>
+
+```
+
+In Email it looks like:
+
+<p align="center">
+  <img src="https://github.com/Ruslan-Shevyrev/MediaFilesToGitHub/blob/master/OracleEmailTabel/media/OracleEmailTabel1.png" width="350" title="Table Example">
+</p>
 
 <table>
   <tr>
