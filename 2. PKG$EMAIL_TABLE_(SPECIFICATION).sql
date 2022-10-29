@@ -1,0 +1,19 @@
+CREATE OR REPLACE PACKAGE PKG$EMAIL_TABLE
+AS
+
+-- init table
+PROCEDURE pINIT_TABLE;
+
+-- add value
+PROCEDURE pADD_VALUE(P_cVALUE CLOB);
+
+-- to next row
+PROCEDURE pNEXT_ROW;
+
+-- to previous row
+PROCEDURE pPREV_ROW;
+
+-- get clob table
+FUNCTION fGET_TABLE RETURN CLOB;
+
+END PKG$EMAIL_TABLE;
