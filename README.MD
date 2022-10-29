@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Ruslan-Shevyrev/MediaFilesToGitHub/blob/master/OracleEmailTabel/media/OracleEmailTabel.gif" width="350" title="OracleEmailTabel">
+  <img src="https://github.com/Ruslan-Shevyrev/MediaFilesToGitHub/blob/master/OracleEmailTable/media/OracleEmailTable.gif" width="350" title="OracleEmailTabel">
 </p>
 
 # OracleEmailTable
@@ -65,7 +65,7 @@ HTML Table looks like:
 In Email it looks like:
 
 <p align="center">
-  <img src="https://github.com/Ruslan-Shevyrev/MediaFilesToGitHub/blob/master/OracleEmailTabel/media/OracleEmailTabel1.png" width="1000" title="Table Example">
+  <img src="https://github.com/Ruslan-Shevyrev/MediaFilesToGitHub/blob/master/OracleEmailTable/media/OracleEmailTable1.png" width="1000" title="Table Example">
 </p>
 
 <table>
