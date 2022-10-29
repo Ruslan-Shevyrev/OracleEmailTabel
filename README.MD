@@ -1,15 +1,12 @@
 # OracleEmailTable
 
-Adds a label with a number next to a ***Navigation Menu*** item or ***Region Display Selector*** using **AJAX**.
-
-***1. Navigation Menu:***
-<p align="left">
-  <img src="https://github.com/Ruslan-Shevyrev/MediaFilesToGitHub/blob/master/OracleApex-Label-Count-AJAX/1.%20Examle%20Count-Label-Oracle-APEX-AJAX.png" width="150" title="Example Navigation Menu">
-</p>
-
-***2. Region Display Selector:***
-<p align="left">
-  <img src="https://github.com/Ruslan-Shevyrev/MediaFilesToGitHub/blob/master/OracleApex-Label-Count-AJAX/2.%20Examle%20Count-Label-Oracle-APEX-AJAX.png" width="350" title="Example Region Display Selector">
-</p>
+Generate ***html*** table in ****Oracle Package*** using ***GLOBAL TEMPORARY TABLE***.\
+Returning **CLOB**.\ 
+The main function is to add this table to email but you can use it for other purposes.
 
 ## Install
+
+Execute PL/SQL scripts from\
+**1. EMAIL_TABLE.sql**\
+**2. PKG$EMAIL_TABLE_(SPECIFICATION).sql**\
+**3. PKG$EMAIL_TABLE_(BODY).sql**
