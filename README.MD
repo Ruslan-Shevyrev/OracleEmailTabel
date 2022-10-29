@@ -1,7 +1,7 @@
 # OracleEmailTable
 
-Generate ***html*** table in ****Oracle Package*** using ***GLOBAL TEMPORARY TABLE***.\
-Returning **CLOB**.\ 
+Generate ***html*** table in ***Oracle Package*** using ***GLOBAL TEMPORARY TABLE***.\
+Returning **CLOB**.\
 The main function is to add this table to email but you can use it for other purposes.
 
 ## Install
