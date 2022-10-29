@@ -61,7 +61,7 @@ HTML Table looks like:
 In Email it looks like:
 
 <p align="center">
-  <img src="https://github.com/Ruslan-Shevyrev/MediaFilesToGitHub/blob/master/OracleEmailTabel/media/OracleEmailTabel1.png" width="350" title="Table Example">
+  <img src="https://github.com/Ruslan-Shevyrev/MediaFilesToGitHub/blob/master/OracleEmailTabel/media/OracleEmailTabel1.png" width="700" title="Table Example">
 </p>
 
 <table>
