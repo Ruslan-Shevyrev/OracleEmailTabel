@@ -19,11 +19,11 @@ Execute PL/SQL scripts from\
 
 | Type | Name  | Description |
 | ------------- | ------------- | ------------- |
-|PROCEDURE | pINIT_TABLE  | init table  |
-|PROCEDURE | pADD_VALUE(P_cVALUE CLOB)  | add value  |
-|PROCEDURE | pNEXT_ROW | to next row |
-|PROCEDURE | pPREV_ROW | to next row |
-|FUNCTION| fGET_TABLE | get clob table |
+|PROCEDURE | pINIT_TABLE  | Table initialization. Deletes all data from the temporary table and moves the current position to the first row of the first column. It is recommended to always call this procedure before creating each new table. |
+|PROCEDURE | pADD_VALUE(P_cVALUE CLOB)  | Add a value to the current cell and move the current position to the next column in that row. In parameter is cell value. |
+|PROCEDURE | pNEXT_ROW | Move the current position to the next line, first column. |
+|PROCEDURE | pPREV_ROW | Move the current position to the previous line, first column. |
+|FUNCTION| fGET_TABLE | Get xml table. The function returns a CLOB. |
 
 ## Example
 
