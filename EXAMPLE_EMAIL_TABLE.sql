@@ -1,0 +1,16 @@
+DECLARE 
+	cMAIL_TEXT CLOB;
+BEGIN
+  	PKG$EMAIL_TABLE.pINIT_TABLE;	
+	PKG$EMAIL_TABLE.pADD_VALUE('Test First column 1');
+	PKG$EMAIL_TABLE.pADD_VALUE('Test value 1');
+	
+	PKG$EMAIL_TABLE.pNEXT_ROW;
+	PKG$EMAIL_TABLE.pADD_VALUE('Test First column 2');
+	PKG$EMAIL_TABLE.pADD_VALUE('Test value 2');
+								
+	cMAIL_TEXT:=PKG$EMAIL_TABLE.fGET_TABLE;
+
+	-- DBMS_OUTPUT.PUT_LINE(cMAIL_TEXT); -- for test only
+	-- Add your send to email here
+END;
