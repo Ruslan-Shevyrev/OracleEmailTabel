@@ -2,7 +2,7 @@
   <img src="https://github.com/Ruslan-Shevyrev/MediaFilesToGitHub/blob/master/OracleEmailTable/media/OracleEmailTable.gif" width="350" title="OracleEmailTabel">
 </p>
 
-# Email-Table
+# Email-HTML-Table
 
 Generate ***html*** table in ***Oracle Package*** using ***GLOBAL TEMPORARY TABLE***.\
 Returning **CLOB**.\
